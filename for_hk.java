@@ -1,4 +1,4 @@
-public class gg_controller extends BaseController {
+public class GG_controller extends BaseController {
   private ForumModel m_model = new ForumModel();
   
   public setModel(ForumModel m_model){
@@ -10,8 +10,8 @@ public class gg_controller extends BaseController {
   }
 }
 
-public class yy_controller extends gg_controller{
-  yy_controller(){
+public class YY_controller extends GG_controller{
+  YY_controller(){
     super();
   }
   //I want to change m_model to class:SaleForumModel(extends from ForumModel)
